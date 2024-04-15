@@ -4,7 +4,9 @@ import services2Data from "../../data/services2.json";
 const Services2 = () => {
   return (
     <section className="services">
-      <div className="feat-top">
+      <div className="feat-top" style={{
+        padding: "80px 80px 40px 80px"
+      }}>
         <div className="notfull bg-gray wow"></div>
         <div className="container-fluid">
           <div className="row">

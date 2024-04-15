@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import aboutUs2Data from "../../data/about-us2.json";
-import Link from 'next/link'
+import Link from "next/link";
 
 const AboutUs2 = () => {
   return (
@@ -13,21 +13,20 @@ const AboutUs2 = () => {
               className="exp-content nopat wow fadeInUp"
               data-wow-delay=".3s"
             >
-              <h6 className="sub-title">About Us</h6>
-              <h2 className="mb-20 playfont">
-                {aboutUs2Data.title.first} <br /> {aboutUs2Data.title.second}
-              </h2>
-              <p>{aboutUs2Data.content}</p>
-              <ul>
+              <h6 className="sub-title">Who We Are</h6>
+              <h2 className="mb-20 playfont">ECCENTRIC YET PEACEFUL</h2>
+              <p>Moira and Carlos met because of their mutual love for art and design. They have turned their passions for aesthetics into a business, joining forces and each doing what they know best, thus complementing each other's work.</p>
+              <p>By not representing a particular era, movement or genre, we can work with many differing architectural styles and hope the specificity of our work will hold relevance to our clients for many years beyond its inception.</p>
+              {/* <ul>
                 {aboutUs2Data.textList.map((item) => (
                   <li key={item.id}>{item.name}</li>
                 ))}
-              </ul>
-              <Link href="/about">
+              </ul> */}
+              {/* <Link href="/about">
                 <a className="btn-curve btn-color mt-30">
                   <span>Read More</span>
                 </a>
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="col-lg-6">
@@ -43,18 +42,18 @@ const AboutUs2 = () => {
                 </div>
                 <div className="col-md-8 wow fadeInUp" data-wow-delay=".3s">
                   <div className="img mb-20 wow imago">
-                    <img src={aboutUs2Data.image1} alt="" />
+                    <img src={"/assets/img/downloaded/Sedgwick.jpg"} alt="" />
                   </div>
                 </div>
                 <div className="col-md-7 wow fadeInUp" data-wow-delay=".3s">
                   <div className="img wow imago">
-                    <img src={aboutUs2Data.image2} alt="" />
+                    <img src={"/assets/img/downloaded/Dove.jpg"} alt="" />
                   </div>
                 </div>
                 <div className="col-md-5">
                   <div className="years-exp">
                     <div className="exp-text">
-                      <h2 className="custom-font">{aboutUs2Data.exp}</h2>
+                      <h2 className="custom-font">x</h2>
                       <h6>Years Of Experience</h6>
                     </div>
                   </div>

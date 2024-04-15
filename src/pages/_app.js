@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Script from "next/script";
 import Head from "next/head";
 import LoadingScreen from "../components/Loading-Screen/loading-screen";
 import "../styles/globals.css";
+import Cursor from "../components/Cursor";
 import ScrollToTop from "../components/scrollToTop";
 
 function MyApp({ Component, pageProps }) {
+  const isServer = typeof window === 'undefined'
+  const WOW = !isServer ? require('wow.js') : null;
+
+  useEffect(() => {
+    new WOW().init()
+  }, [])
   return (
     <>
       <Head>
@@ -16,6 +23,7 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
 
+      <Cursor />
       <LoadingScreen />
       <Component {...pageProps} />
       <ScrollToTop />

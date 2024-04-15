@@ -18,7 +18,8 @@
     "react-slick": "^0.28.1",
     "sass": "^1.45.0",
     "slick-carousel": "^1.8.1",
-    "swiper": "^7.3.2"
+    "swiper": "^7.3.2",
+    "wow.js": "^1.2.2"
   },
   "devDependencies": {
     "eslint": "8.4.1",
