@@ -13,7 +13,7 @@ const Portfolio2 = () => {
           <div className="col-lg-3 col-md-6 cluom current" data-tab="tab-1">
             <div className="info">
               <h6 className="custom-font">Interior</h6>
-              <h5>Exterior Designs</h5>
+              <h5>Our Portfolio </h5>
             </div>
             <div className="more">
               <Link href="/project-details">
@@ -26,7 +26,7 @@ const Portfolio2 = () => {
           <div className="col-lg-3 col-md-6 cluom" data-tab="tab-2">
             <div className="info">
               <h6 className="custom-font">Interior</h6>
-              <h5>Maroon Beach Hotel</h5>
+              <h5>Chalet Ramona</h5>
             </div>
             <div className="more">
               <Link href="/project-details">
@@ -52,7 +52,7 @@ const Portfolio2 = () => {
           <div className="col-lg-3 col-md-6 cluom" data-tab="tab-4">
             <div className="info">
               <h6 className="custom-font">Interior</h6>
-              <h5>Modern Minimalist House</h5>
+              <h5>Sedgwick Chalet</h5>
             </div>
             <div className="more">
               <Link href="/project-details">
@@ -68,25 +68,25 @@ const Portfolio2 = () => {
         <div
           id="tab-1"
           className="bg-img tab-img current"
-          style={{ backgroundImage: `url(/assets/img/portfolio/full/01.jpg)` }}
+          style={{ backgroundImage: `url(/assets/img/downloaded/Sedgwick-reloj.jpg)` }}
           data-overlay-dark="2"
         ></div>
         <div
           id="tab-2"
           className="bg-img tab-img"
-          style={{ backgroundImage: `url(/assets/img/portfolio/full/02.jpg)` }}
+          style={{ backgroundImage: `url(/assets/img/downloaded/Chalet-ramona.jpg)` }}
           data-overlay-dark="2"
         ></div>
         <div
           id="tab-3"
           className="bg-img tab-img"
-          style={{ backgroundImage: `url(/assets/img/portfolio/full/03.jpg)` }}
+          style={{ backgroundImage: `url(/assets/img/downloaded/Mysqft-Moira-Jersey-City-19.jpg)` }}
           data-overlay-dark="2"
         ></div>
         <div
           id="tab-4"
           className="bg-img tab-img"
-          style={{ backgroundImage: `url(/assets/img/portfolio/full/04.jpg)` }}
+          style={{ backgroundImage: `url(/assets/img/downloaded/Sedgwick5.jpg)` }}
           data-overlay-dark="2"
         ></div>
       </div>
