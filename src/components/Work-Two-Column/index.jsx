@@ -14,7 +14,7 @@ export const WorkTwoColumn = () => {
     {
       img: "/assets/img/moca/01.jpg",
       title: "Chalet Ramona",
-      url: "portfolio/",
+      url: "portfolio/chalet-ramona",
     },
     {
       img: "/assets/img/moca/02.jpg",

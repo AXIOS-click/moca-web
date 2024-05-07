@@ -31,7 +31,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
   return (
     <nav className="navbar change navbar-expand-lg" ref={navbarRef}>
       <div className="container">
-        <Link href="/demos">
+        <Link href="/">
           <a className={`logo ${logoClass && logoClass}`}>
             <img src={appData.lightLogo} alt="logo" ref={logoRef} />
           </a>
