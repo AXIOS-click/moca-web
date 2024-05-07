@@ -19,7 +19,7 @@ const Process = () => {
             </div>
           </div>
         </div>
-        <div className=" row">
+        <div className=" row justify-content-center">
           <div
             className="col-lg-3 col-md-6 coulmn wow fadeInUp"
             data-wow-delay=".3s"
@@ -27,7 +27,7 @@ const Process = () => {
             <div className="item">
               <div
                 className="bg-img"
-                style={{ backgroundImage: `url(/assets/img/process/01.jpg)` }}
+                style={{ backgroundImage: `url(/assets/img/creativeProcess/2.jpg)` }}
               >
                 <h3 className="numb custom-font">01</h3>
               </div>
@@ -44,7 +44,7 @@ const Process = () => {
             <div className="item">
               <div
                 className="bg-img"
-                style={{ backgroundImage: `url(/assets/img/process/02.jpg)` }}
+                style={{ backgroundImage: `url(/assets/img/creativeProcess/3.jpg)` }}
               >
                 <h3 className="numb custom-font">02</h3>
               </div>
@@ -55,13 +55,13 @@ const Process = () => {
             </div>
           </div>
           <div
-            className="col-lg-3 col-md-6 coulmn wow fadeInUp"
+            className="col-lg-3 col-md-6 wow fadeInUp"
             data-wow-delay=".4s"
           >
             <div className="item">
               <div
                 className="bg-img"
-                style={{ backgroundImage: `url(/assets/img/process/03.jpg)` }}
+                style={{ backgroundImage: `url(/assets/img/creativeProcess/1.jpeg)` }}
               >
                 <h3 className="numb custom-font">03</h3>
               </div>
@@ -71,20 +71,7 @@ const Process = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".6s">
-            <div className="item">
-              <div
-                className="bg-img"
-                style={{ backgroundImage: `url(/assets/img/process/04.jpg)` }}
-              >
-                <h3 className="numb custom-font">04</h3>
-              </div>
-              <div className="cont">
-                <h6 className="mb-10">Budget Planning</h6>
-                <p>Nulla metus metus ullamcorper vel tincidunt sed euismod.</p>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </div>
     </section>

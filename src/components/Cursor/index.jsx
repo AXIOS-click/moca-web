@@ -5,11 +5,7 @@ const Cursor = () => {
   React.useEffect(() => {
     mouseEffect();
   }, []);
-  return (
-    <>
-      <div className="mouse-cursor cursor-inner"></div>
-    </>
-  );
+  return <div className="mouse-cursor cursor-inner"></div>;
 };
 
 export default Cursor;

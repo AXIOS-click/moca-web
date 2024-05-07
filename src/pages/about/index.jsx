@@ -21,11 +21,7 @@ const About = () => {
           { id: 2, name: "about us", url: "/about" },
         ]}
       />
-      <AboutUs4 />
-      <Services3 bigTitle grid />
-      <Testimonials1 bigTitle />
-      <Team2 />
-      <Skills2 />
+      <Services3 grid />
     </MainLayout>
   );
 };

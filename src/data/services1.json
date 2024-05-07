@@ -3,23 +3,18 @@
   "services": [
     {
       "id": "01",
-      "title": "Architecture",
-      "content": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+      "title": "FULL SERVICE WALL TO WALL HOME STYLING ",
+      "content": "We will begin with a walkthrough of the space to understand the client’s wishlist to then create a roadmap that will transform an entire space. From bathroom tile and finishes, to wallpaper, paint colors, throw pillows, wall art, and every curated detail in between."
     },
     {
       "id": "02",
-      "title": "Interior Design",
-      "content": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+      "title": "Interior Decor Refresh",
+      "content": "We take your existing pieces and assess what needs to be changed from the floor plan, to wall art, textiles, and furniture. We carefully bring in new items and mix them with your heirlooms while refreshing the space to give a new look."
     },
     {
       "id": "03",
-      "title": "3D Modeling",
-      "content": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
-    },
-    {
-      "id": "04",
-      "title": "Furniture Design",
-      "content": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+      "title": "WALL MURALS + HAND PAINTED WALLPAPER",
+      "content": "We create wall murals and hand-painted wallpaper to match interiors that are completely unique to your home. Or, work with us to commission customized fine art, sculptures, and paintings to fit the vibe of the client and the home."
     }
   ]
 }

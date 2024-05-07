@@ -3,21 +3,21 @@
     "id": 1,
     "image": "/assets/img/01.jpg",
     "icon": "icon flaticon-home-1",
-    "title": "Architecture",
-    "content": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+    "title": "Interior Decor ",
+    "content": "FULL SERVICE WALL TO WALL HOME STYLING"
   },
   {
     "id": 2,
     "image": "/assets/img/02.jpg",
     "icon": "icon flaticon-living-room",
-    "title": "Interior Design",
-    "content": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+    "title": "Interior Decor",
+    "content": "REFRESH"
   },
   {
     "id": 3,
     "image": "/assets/img/03.jpg",
     "icon": "icon flaticon-interior-design",
-    "title": "3D Modeling",
-    "content": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+    "title": "Custom Art ",
+    "content": "WALL MURALS + HAND PAINTED WALLPAPER"
   }
 ]
