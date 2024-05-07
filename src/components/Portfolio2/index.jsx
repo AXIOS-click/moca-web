@@ -16,9 +16,9 @@ const Portfolio2 = () => {
               <h5>Our Portfolio </h5>
             </div>
             <div className="more">
-              <Link href="/project-details">
+              <Link href="/portfolio">
                 <a>
-                  View Project <i className="fas fa-chevron-right"></i>
+                  View Projects <i className="fas fa-chevron-right"></i>
                 </a>
               </Link>
             </div>

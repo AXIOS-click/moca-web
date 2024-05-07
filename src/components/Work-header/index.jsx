@@ -6,23 +6,27 @@ const WorkHeader = ({ title, content, center }) => {
       className="work-header bg-img valign"
       style={{ backgroundImage: "url(/assets/img/patern.png)" }}
     >
-      <div className="container">
+      <div
+        className="container"
+      >
         <div className={`row ${center ? "justify-content-center" : ""}`}>
           <div className="col-lg-9">
             <div className={`cont ${center ? "text-center" : ""}`}>
-              <h2>
+              <h2
+                style={{
+                  color: "#181818!important",
+                }}
+              >
                 {typeof title == "object" ? (
                   <>
-                    {title.first} <br /> {title.second}
+                    {title.first} <br />
                   </>
                 ) : (
                   title
                 )}
               </h2>
 
-              <p>
-                {content}
-              </p>
+              <p>{content}</p>
             </div>
           </div>
         </div>

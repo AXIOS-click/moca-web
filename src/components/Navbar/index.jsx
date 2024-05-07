@@ -60,12 +60,12 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/about">
+              <Link href="/services">
                 <p className="nav-link">Services</p>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/about">
+              <Link href="/portfolio">
                 <p className="nav-link">Portfolio</p>
               </Link>
             </li>

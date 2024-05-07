@@ -65,7 +65,7 @@
 
 body {
   color: #fff;
-  background: #181818;
+  /* background: #181818; */
   line-height: 1.5;
   font-weight: 400;
   overflow-x: hidden !important;
